@@ -34,11 +34,6 @@ class MainActivity : AppCompatActivity() {
         add(first, second)
     }
 
-    private fun add(first: Int, second: Int) {
-        val result = first + second
-        tvResult.text = result.toString()
-    }
-
     private fun checkEmptyValues(): Boolean {
         var flag = true
         if (TextUtils.isEmpty(etFirst.text)) {
@@ -51,5 +46,10 @@ class MainActivity : AppCompatActivity() {
             flag = false
         }
         return flag
+    }
+
+    private fun add(first: Int, second: Int) {
+        val result = first + second
+        tvResult.text = result.toString()
     }
 }
