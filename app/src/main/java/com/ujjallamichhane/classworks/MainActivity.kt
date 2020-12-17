@@ -28,6 +28,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun add(first: Int, second: Int) {
+        val result = first + second
+        tvResult.text = result.toString()
+    }
+
+    private fun retrieveValues() {
+        val first: Int = etFirst.text.toString().toInt()
+        val second: Int = etSecond.text.toString().toInt()
+        add(first, second)
+    }
+
     private fun checkEmptyValues(): Boolean {
         var flag = true
         if (TextUtils.isEmpty(etFirst.text)) {
@@ -40,16 +51,5 @@ class MainActivity : AppCompatActivity() {
             flag = false
         }
         return flag
-    }
-
-    private fun add(first: Int, second: Int) {
-        val result = first + second
-        tvResult.text = result.toString()
-    }
-
-    private fun retrieveValues() {
-        val first: Int = etFirst.text.toString().toInt()
-        val second: Int = etSecond.text.toString().toInt()
-        add(first, second)
     }
 }
