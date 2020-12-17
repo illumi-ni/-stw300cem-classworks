@@ -24,16 +24,16 @@ class ImageViewActivity : AppCompatActivity() {
         rdoDoodle = findViewById(R.id.rdoDoodle)
         imgProfile = findViewById(R.id.imgProfile)
 
-        rdoIllumi.setOnClickListener {
-            imgProfile.setImageResource(R.drawable.illumi)
-        }
-
-        rdoSpike.setOnClickListener {
-            imgProfile.setImageResource(R.drawable.spike)
-        }
-
-        rdoDoodle.setOnClickListener {
-            imgProfile.setImageResource(R.drawable.doodle)
+        rdoGroup.setOnCheckedChangeListener { group, checkedId ->
+            if(checkedId == R.id.rdoIllumi){
+                imgProfile.setImageResource(R.drawable.illumi)
+            }
+            else if(checkedId == R.id.rdoSpike){
+                imgProfile.setImageResource(R.drawable.spike)
+            }
+            else if(checkedId == R.id.rdoDoodle){
+                imgProfile.setImageResource(R.drawable.doodle)
+            }
         }
     }
 }

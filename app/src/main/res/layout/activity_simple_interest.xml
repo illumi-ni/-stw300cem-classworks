@@ -47,6 +47,7 @@
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4" />
+        android:layout_weight="4"
+        android:hint="0" />
 
 </LinearLayout>
