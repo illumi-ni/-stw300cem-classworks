@@ -15,7 +15,8 @@ class FloatingActionButtonActivity : AppCompatActivity() {
         btnFab = findViewById(R.id.btnFab)
 
         btnFab.setOnClickListener {
-            Toast.makeText(this@FloatingActionButtonActivity, "I am clicked!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@FloatingActionButtonActivity, "I am clicked!", Toast.LENGTH_SHORT)
+                .show()
         }
     }
 }

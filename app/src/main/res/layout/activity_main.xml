@@ -12,34 +12,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:inputType="number"
         android:gravity="center"
-        android:hint="Enter first number"/>
+        android:hint="Enter first number"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/etSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:inputType="number"
         android:gravity="center"
-        android:hint="Enter second number"/>
+        android:hint="Enter second number"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Calculate"/>
+        android:text="Calculate" />
 
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_margin="10dp"
-        android:textSize="30sp"
+        android:gravity="center"
         android:inputType="number"
-        android:text="0"/>
+        android:text="0"
+        android:textSize="30sp" />
 
 </LinearLayout>

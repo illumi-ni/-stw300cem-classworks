@@ -16,8 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".week2.GridLayoutTask2Activity">
-        </activity>
+        <activity android:name=".week2.GridLayoutTask2Activity" />
         <activity android:name=".week2.GridLayoutTask1Activity" />
         <activity android:name=".week2.GridLayoutActivity" />
         <activity android:name=".week2.FloatingActionButtonClassworkActivity" />

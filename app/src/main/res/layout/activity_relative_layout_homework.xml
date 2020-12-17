@@ -10,63 +10,63 @@
         android:id="@+id/btnRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#ff0000"
-        android:layout_marginTop="50dp"
         android:layout_marginStart="20dp"
-        android:text="Red"/>
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#ff0000"
+        android:text="Red" />
 
     <Button
         android:id="@+id/btnOrange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#ff8300"
-        android:text="Orange"
+        android:layout_below="@+id/btnRed"
         android:layout_toEndOf="@+id/btnRed"
-        android:layout_below="@+id/btnRed"/>
+        android:backgroundTint="#ff8300"
+        android:text="Orange" />
 
     <Button
         android:id="@+id/btnYellow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#ffec00"
-        android:text="Yellow"
+        android:layout_below="@+id/btnOrange"
         android:layout_toEndOf="@+id/btnOrange"
-        android:layout_below="@+id/btnOrange"/>
+        android:backgroundTint="#ffec00"
+        android:text="Yellow" />
 
     <Button
         android:id="@+id/btnGreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#00ff06"
-        android:text="Green"
+        android:layout_below="@+id/btnYellow"
         android:layout_toEndOf="@+id/btnYellow"
-        android:layout_below="@+id/btnYellow"/>
+        android:backgroundTint="#00ff06"
+        android:text="Green" />
 
     <Button
         android:id="@+id/btnBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#0064ff"
-        android:text="Blue"
+        android:layout_below="@id/btnGreen"
         android:layout_toStartOf="@id/btnGreen"
-        android:layout_below="@id/btnGreen"/>
+        android:backgroundTint="#0064ff"
+        android:text="Blue" />
 
     <Button
         android:id="@+id/btnIndigo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#9b00ff"
-        android:text="Indigo"
+        android:layout_below="@id/btnBlue"
         android:layout_toStartOf="@id/btnBlue"
-        android:layout_below="@id/btnBlue"/>
+        android:backgroundTint="#9b00ff"
+        android:text="Indigo" />
 
     <Button
         android:id="@+id/btnViolet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#ff00f3"
-        android:text="Violet"
+        android:layout_below="@id/btnIndigo"
         android:layout_toStartOf="@id/btnIndigo"
-        android:layout_below="@id/btnIndigo"/>
+        android:backgroundTint="#ff00f3"
+        android:text="Violet" />
 
 </RelativeLayout>

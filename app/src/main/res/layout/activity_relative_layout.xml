@@ -11,23 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:inputType="number"
-        android:hint="Enter first number"/>
+        android:hint="Enter first number"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/etSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/etFirst"
         android:layout_margin="10dp"
-        android:inputType="number"
         android:hint="Enter second number"
-        android:layout_below="@+id/etFirst"/>
+        android:inputType="number" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate"
+        android:layout_below="@+id/etSecond"
         android:layout_margin="10dp"
-        android:layout_below="@+id/etSecond"/>
+        android:text="Calculate" />
 
 </RelativeLayout>
