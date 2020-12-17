@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".week2.RadioButtonActivity">
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:hint="Enter first number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:hint="Enter second number"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdoSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sum" />
+
+        <RadioButton
+            android:id="@+id/rdoSubtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtract" />
+
+        <RadioButton
+            android:id="@+id/rdoMultiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiply" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+</LinearLayout>
