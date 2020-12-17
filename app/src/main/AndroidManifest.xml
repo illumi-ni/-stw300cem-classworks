@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Classworks">
-        <activity android:name=".week2.StyleAndScrollViewActivity">
+        <activity android:name=".week2.MessageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".week2.StyleAndScrollViewActivity">
         </activity>
         <activity android:name=".week2.GridLayoutTask2Activity" />
         <activity android:name=".week2.GridLayoutTask1Activity" />

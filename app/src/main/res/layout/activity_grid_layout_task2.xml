@@ -10,7 +10,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:focusable="false"
         android:hint="0"
         android:textAlignment="viewEnd"
@@ -18,7 +19,8 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
         android:columnCount="4"
         android:rowCount="4">
 
