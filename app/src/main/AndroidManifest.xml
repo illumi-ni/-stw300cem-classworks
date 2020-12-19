@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Classworks">
-        <activity android:name=".week2.RadioButtonActivity">
+        <activity android:name=".week2.ConstraintLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".week2.RadioButtonActivity" />
         <activity android:name=".week2.SimpleInterestActivity" />
         <activity android:name=".week2.MessageActivity" />
         <activity android:name=".week2.StyleAndScrollViewActivity" />
